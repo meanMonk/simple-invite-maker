@@ -1,7 +1,8 @@
-import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 import { toast } from "sonner";
 
 const Contact = () => {
@@ -45,10 +46,10 @@ const Contact = () => {
       {/* Header */}
       <header className="border-b border-border">
         <nav className="container mx-auto px-4 py-4 flex justify-between items-center max-w-6xl">
-          <a href="/" className="text-xl font-bold text-primary">SimpleInviteMaker</a>
-          <a href="/" className="text-sm text-muted-foreground hover:text-foreground">
+          <Link to="/" className="text-xl font-bold text-primary">SimpleInviteMaker</Link>
+          <Link to="/" className="text-sm text-muted-foreground hover:text-foreground">
             Home
-          </a>
+          </Link>
         </nav>
       </header>
 

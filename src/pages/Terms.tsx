@@ -1,13 +1,15 @@
+import { Link } from "react-router-dom";
+
 const Terms = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
       <header className="border-b border-border">
         <nav className="container mx-auto px-4 py-4 flex justify-between items-center max-w-6xl">
-          <a href="/" className="text-xl font-bold text-primary">SimpleInviteMaker</a>
-          <a href="/" className="text-sm text-muted-foreground hover:text-foreground">
+          <Link to="/" className="text-xl font-bold text-primary">SimpleInviteMaker</Link>
+          <Link to="/" className="text-sm text-muted-foreground hover:text-foreground">
             Home
-          </a>
+          </Link>
         </nav>
       </header>
 

@@ -1,7 +1,8 @@
-import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { supabase } from "@/integrations/supabase/client";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 import { toast } from "sonner";
 
 const Home = () => {
@@ -48,9 +49,9 @@ const Home = () => {
       <header className="border-b border-border">
         <nav className="container mx-auto px-4 py-4 flex justify-between items-center max-w-6xl">
           <h1 className="text-xl font-bold text-primary">SimpleInviteMaker</h1>
-          <a href="/contact" className="text-sm text-muted-foreground hover:text-foreground">
+          <Link to="/contact" className="text-sm text-muted-foreground hover:text-foreground">
             Contact
-          </a>
+          </Link>
         </nav>
       </header>
 
@@ -236,15 +237,21 @@ const Home = () => {
             <div>
               <h4 className="font-semibold mb-4">Legal</h4>
               <ul className="space-y-2">
-                <li><a href="/terms" className="text-sm text-muted-foreground hover:text-foreground">Terms & Conditions</a></li>
-                <li><a href="/privacy" className="text-sm text-muted-foreground hover:text-foreground">Privacy Policy</a></li>
-                <li><a href="/refund" className="text-sm text-muted-foreground hover:text-foreground">Refund Policy</a></li>
+                <li>
+                  <Link to="/terms" className="text-sm text-muted-foreground hover:text-foreground">Terms & Conditions</Link>
+                </li>
+                <li>
+                  <Link to="/privacy" className="text-sm text-muted-foreground hover:text-foreground">Privacy Policy</Link>
+                </li>
+                <li>
+                  <Link to="/refund" className="text-sm text-muted-foreground hover:text-foreground">Refund Policy</Link>
+                </li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Support</h4>
               <ul className="space-y-2">
-                <li><a href="/contact" className="text-sm text-muted-foreground hover:text-foreground">Contact Us</a></li>
+                <li><Link to="/contact" className="text-sm text-muted-foreground hover:text-foreground">Contact Us</Link> </li>
               </ul>
             </div>
             <div>
