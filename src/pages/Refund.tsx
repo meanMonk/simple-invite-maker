@@ -99,7 +99,7 @@ const Refund = () => {
             If you wish to dispute a charge:
           </p>
           <ol className="list-decimal pl-6 mb-4">
-            <li className="mb-2">Contact us first at billing@simpleinvitemaker.in with your order details</li>
+            <li className="mb-2">Contact us first at support@simpleinvitemaker.in with your order details</li>
             <li className="mb-2">Provide clear explanation of the issue</li>
             <li className="mb-2">Allow us 5-7 business days to investigate and respond</li>
             <li className="mb-2">We will work in good faith to resolve any legitimate billing concerns</li>
@@ -131,7 +131,6 @@ const Refund = () => {
           <p className="mb-4">
             If you have questions about our refund policy or need to request an exception review, please contact us:
           </p>
-          <p className="mb-2">Email: billing@simpleinvitemaker.in</p>
           <p className="mb-2">Support: support@simpleinvitemaker.in</p>
           <p className="mb-4">
             Please include your order number, email address, and detailed description of your concern.

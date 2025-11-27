@@ -19,7 +19,7 @@ const Home = () => {
     try {
       const { error } = await supabase.from("leads").insert({
         email: email.trim(),
-        page: "home",
+        page: "home - invite maker",
         buying_intent: buyingIntent,
       });
 

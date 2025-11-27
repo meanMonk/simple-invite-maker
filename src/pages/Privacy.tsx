@@ -92,7 +92,7 @@ const Privacy = () => {
             <li>Withdraw consent at any time</li>
           </ul>
           <p className="mb-4">
-            To exercise these rights, please contact us at privacy@simpleinvitemaker.in
+            To exercise these rights, please contact us at support@simpleinvitemaker.in
           </p>
         </section>
 
@@ -135,7 +135,7 @@ const Privacy = () => {
           <p className="mb-4">
             If you have questions about this Privacy Policy, please contact us at:
           </p>
-          <p className="mb-2">Email: privacy@simpleinvitemaker.in</p>
+          <p className="mb-2">Email: support@simpleinvitemaker.in</p>
           <p className="mb-2">Address: SimpleInviteMaker.in, India</p>
         </section>
       </article>
